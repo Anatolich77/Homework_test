@@ -1,17 +1,35 @@
-body{
-	padding: 0px;
-	margin: 0px;
+body {
 	background-color: #eee;
-
+	padding: 0;
+	margin: 0;
 }
-div{
-	width: 800px;
-	height: 800px;
-	background-color: #0099cc;
-	margin: auto;
-	padding-top: 0px;
-	border-bottom: 2px;
-	position: absolute;
-	float: right;
 
+div {
+	width: 51%;
+	height: 900px;
+	background-color: white;
+	position: absolute;
+	margin-left: 300px;
+}
+
+.fig {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul { 
+	margin-left: 35px;
+}
+
+h3,
+h2,
+a { 
+	margin-left: 35px;
+}
+
+hr {
+	margin: 0 25px 0 25px;
 }
