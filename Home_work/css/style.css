@@ -5,25 +5,24 @@ body {
 }
 
 .wrapper {
-  width: 50%;
+  width: 600px;
   height: 100%;
   background-color: white;
   margin: auto;
-  padding: 10px 0 0 0;
+  padding: 10px 20px 0 0;
+  box-shadow: 0 0 3px #3c3c3c;
 }
 
 .box { 
-  padding: 0 35px 0 35px;
+  padding: 10px 20px;
   padding-bottom: 6px;
   margin: 0 25px 0 25px;
 }
 
 .gm-border-bottom {
-  display: block;
   border-bottom: solid;
-  border-bottom-width: thin;
-  padding: 0 35px 0 35px;
-  padding-bottom: 6px;
+  border-color: #7b7b7b;
+  border-bottom-width: 1px;
   margin: 0 25px 0 25px;
 
 }
