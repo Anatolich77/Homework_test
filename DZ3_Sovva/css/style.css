@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: gray;
+}
+
+.wrapper {
+	width: 1366px;
+	height: 950px;
+	background-color: white;
+	margin: auto;
+}
+.main-content { 
+	width: 1060px;
+	height: 100%;
+	margin: auto; 
+	box-shadow: 0 0 3px; 
+
+}
+/* начало header*/
+.header {
+	margin-left: 46px;
+	margin-right: 46px;
+}
+h1 {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.menubar {
+	background-color: #535252;
+
+}
+.menubar li {
+	padding-right: 40px;
+	margin-right: -4px;
+	display: inline-block;
+	list-style: none;
+}
+.menubar a {
+	display: block;
+	padding: 15px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #535252;
+	text-decoration: none;
+	
+}
+.menubar a:hover {
+	color: white;
+	background-color: #434343;
+	border-right: 0.3px solid #fff;
+}
+
+/*начало sidebar*/
+.sidebar { 
+	display: block;
+	float: left;
+	width: 240px;
+	margin: 46px 0 0 46px;
+	border-left: 2px solid #c8c8c8;
+	border-right: 2px solid #c8c8c8;
+	border-top: 2px solid #c8c8c8;
+		
+}
+
+.sidebar a {
+	display: block;
+	
+	border-bottom: 2px solid #c8c8c8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	}
+
+.sidebar a:hover {
+	background-color:#f9f9f9;
+	text-align: center;
+}
+/*начало content*/
+.content {
+	float: right; 
+	width: 65%;
+	margin: 46px 46px 46px 0;
+				
+}
+img {
+	float: left;
+	width: 100%;
+	margin-bottom: 46px;
+	border: 2px solid #c8c8c8;	
+}
+p {
+	clear: both;
+	font-family: sans-serif;
+}
+/*начало footer*/
+.footer { 
+	clear: both;
+}
+
+.footer-menubar {
+	background-color: #e1e1e1;
+	margin-left: 46px;
+	margin-right: 46px;
+}
+.footer-menubar li {
+	display: inline-block;
+	padding-right: 40px;
+	margin-right: -4px;
+}
+.footer-menubar a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	background-color: #e1e1e1;
+	font-family: sans-serif;
+	color: black;
+	
+}
+
+.footer-menubar a:hover {
+	text-decoration: underline;
+}
+
+span {
+	float: right;
+	margin-right: 46px;
+	padding: 15px 15px 0 0;
+}
+
+
+
+
+
