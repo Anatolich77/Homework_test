@@ -34,12 +34,14 @@ h1 {
 .menubar {
 	background-color: #535252;
 
+
 }
 .menubar li {
 	padding-right: 40px;
 	margin-right: -4px;
 	display: inline-block;
 	list-style: none;
+
 }
 .menubar a {
 	display: block;
@@ -49,13 +51,17 @@ h1 {
 	color: white;
 	background-color: #535252;
 	text-decoration: none;
+	border-right: 0.1px solid transparent;
+	border-left: 0.1px solid transparent;
 	
 }
 .menubar a:hover {
 	color: white;
 	background-color: #434343;
-	border-right: 0.3px solid #fff;
-	border-left: 0.3px solid #fff;
+	border-right: 0.1px solid #fff;
+	border-left: 0.1px solid #fff;
+
+
 }
 
 /*начало sidebar*/
