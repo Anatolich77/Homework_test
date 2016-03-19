@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,p,span{
+    font-family: Tahoma;
+}
+
+body{
+    background-image: url('../img/bkg.jpg');
+}
+.wrapper{
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    background-color: #fff;
+    box-shadow: 0px 2px 0 rgba(0,0,0,1);
+        
+}
+
+
+/*     header      */
+.header{
+    width: 100%;
+    background-color: #fff;
+}
+
+.contacts{
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #128aa7;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.flag{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.menutop{
+    clear: both;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+}
+.menutop li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.menutop a{
+    position: relative;
+    font-size: 9px;
+    color: blue;
+}
+.layot{
+    margin-bottom: -5px;
+}
+
+/* header end */
+
+/*mainmenu start*/
+
+.mainmenu{
+    height: 25px;
+    text-align: center;
+    background-color: #333;
+}
+.mainmenu ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 20px 0 20px;
+}
+.mainmenu ul li a{
+    display: block;
+    line-height: 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px 0 10px;
+
+}
+
+.submenu{
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    right: : 15%;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.submenu a{ 
+    padding: 0 10px 0 10px;
+    line-height: 20px;
+
+}
+
+.mainmenu li:hover .submenu{
+    display: block;
+    
+}
+.mainmenu ul li a:hover{
+    text-decoration: none;
+    display: block;
+    background-color: #333;
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+/*main menu end*/
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.sidebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    float: left;
+    height: 354px;
+    background-color: #edeef0;
+    font-size: 14px;
+}
+.info{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    float: right;
+    height: 354px;
+    background-color: #edeef0;
+    font-size: 14px;
+}
+.content{
+    width: 60%;
+    float: left;
+    background-color: #fff;
+
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #424c43;
+    font-size: 18px;
+}
+.copy{
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
